@@ -10,7 +10,7 @@ type FAQItem = {
 const faqItems: FAQItem[] = [
   {
     question: "¿Cuál es tu experiencia en desarrollo web?",
-    answer: "Tengo más de 5 años de experiencia en desarrollo web, trabajando con tecnologías como React, Node.js, y bases de datos SQL y NoSQL. He participado en proyectos de diversos tamaños, desde pequeñas aplicaciones hasta plataformas empresariales a gran escala."
+    answer: "Tengo más de 2 años de experiencia en desarrollo web, trabajando con tecnologías como React, Svelte, nextjs, y bases de datos SQL."
   },
   {
     question: "¿Cómo manejas los plazos y la comunicación durante un proyecto?",
@@ -20,14 +20,6 @@ const faqItems: FAQItem[] = [
     question: "¿Puedes trabajar en proyectos a largo plazo o prefieres contratos cortos?",
     answer: "Soy flexible y puedo adaptarme tanto a proyectos a largo plazo como a contratos cortos. Mi objetivo es proporcionar el mejor valor posible, independientemente de la duración del proyecto."
   },
-  {
-    question: "¿Cómo garantizas la calidad de tu código?",
-    answer: "Implemento prácticas de desarrollo como pruebas unitarias, revisiones de código y integración continua. Además, sigo los principios SOLID y patrones de diseño para asegurar que el código sea mantenible y escalable."
-  },
-  {
-    question: "¿Ofreces soporte después de la finalización del proyecto?",
-    answer: "Sí, ofrezco un período de soporte post-lanzamiento para asegurar que todo funcione correctamente. También puedo proporcionar mantenimiento continuo y actualizaciones según sea necesario."
-  }
 ]
 
 const FAQItem = ({ item }: { item: FAQItem }) => {
