@@ -6,7 +6,7 @@ import SpellyCover from '@/assets/spelly-cover.png'
 const projects = [
   { id: 1, title: 'Belkys Manga TC LP', image: `${Thumbnail}`, url: 'https://www.figma.com/proto/bTi2nZ1hbUBlr3ewPDtBpH/peluqueria?node-id=0-1&t=xm5LFdHB6M2HMqxW-1' },
   { id: 2, title: 'Mundo Peludo', image: `${Cover}`, url: 'https://www.figma.com/proto/W5cYFGZfwHrxaOXyw070N2/Mundo-Peludo?node-id=0-1&t=cVx8cLZwPyn95TxW-1' },
-  { id: 2, title: 'Spelly', image: `${SpellyCover}, url: 'https://spelly-kit.vercel.app/`}
+  { id: 3, title: 'Spelly', image: `${SpellyCover}`, url: 'https://spelly-kit.vercel.app/'}
 ]
 
 export const ProjectCards = () => {
